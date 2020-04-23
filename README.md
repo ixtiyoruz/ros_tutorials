@@ -18,6 +18,6 @@ catkin_init_workspace
 </pre>
 2. creating package (node)
 <pre>
-catkin create pkg <pkg-name> --catkin-deps <dependencies>
+catkin create pkg ''pkg-name'' --catkin-deps ''dependencies''
 </pre>
 
