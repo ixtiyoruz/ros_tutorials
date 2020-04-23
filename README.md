@@ -21,3 +21,7 @@ catkin_init_workspace
 catkin create pkg ''pkg-name'' --catkin-deps ''dependencies''
 </pre>
 
+3. if you want to uninitialize of your workspace use:
+<pre>
+catkin clean --deinit
+</pre>
