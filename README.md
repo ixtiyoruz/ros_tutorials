@@ -1,4 +1,8 @@
 # ros_tutorials
+1. to run the sample camera:
+  a) rosrun camera image_pub.py '/home/ixtiyor/Pictures/Screenshot from 2019-10-02 10-52-39.png'
+  b) rosrun camera detect_pump.py
+  (it is not reading from camera as it's name claiming, you can do it with little change if you want)
 notes:
 1. ubuntu 16.04 is best suited with ros kinetic
 2. if you build cv_bridge let it be alone in another workspace
