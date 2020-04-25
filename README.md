@@ -25,3 +25,19 @@ catkin create pkg ''pkg-name'' --catkin-deps ''dependencies''
 <pre>
 catkin clean --deinit
 </pre>
+
+
+
+
+issues and their solutions:
+
+1. 
+<pre>
+  Could not find the following Boost libraries:
+
+          boost_python3
+</pre>
+solution is run catkin build with this:
+<pre>
+-DBoost_PYTHON3_FOUND=1
+</pre>
