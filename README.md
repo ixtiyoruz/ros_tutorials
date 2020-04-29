@@ -41,3 +41,8 @@ solution is run catkin build with this:
 <pre>
 -DBoost_PYTHON3_FOUND=1
 </pre>
+
+If you are going to connect the eigen in your c++ file:
+<pre>
+g++ calibrate_original.cpp -I /usr/include/eigen3
+</pre>
